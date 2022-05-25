@@ -1,0 +1,23 @@
+import random
+
+guess = input("Выберите напёрсток (L, C, R): ")
+
+game = {
+    "L": 0,
+    "C": 0,
+    "R": 0}
+
+
+
+x = random.randint(0,len(list(game)))
+
+listkey = list(game)
+
+(listkey[x]) == 1
+
+print(list(listkey)[x])
+
+if (listkey)[x] == guess:
+    print("Вы угадали")
+else:
+    print("Увы")
